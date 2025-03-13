@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/hrbank
+    username: hrbank_5
+    password: hrbank_5
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
